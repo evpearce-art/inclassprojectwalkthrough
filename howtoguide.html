@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to Survive a Dinosaur Attack — Kid-Friendly Guide</title>
+  <style>
+    /* Color palette: cream background, dark green accents, warm brown elements */
+    :root{
+      --cream: #f7f3e9;
+      --dark-green: #2f4a36;
+      --brown: #6b4f38;
+      --soft-brown: #8b6b52;
+      --muted-text: #3b3b3b;
+      --accent: #4b6b4f;
+      --max-width: 800px;
+    }
+
+    /* Page basics */
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, var(--cream) 0%, #fbf8f2 100%);
+      color: var(--muted-text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* Centered container */
+    .wrap{
+      max-width: var(--max-width);
+      margin: 40px auto;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(46, 49, 47, 0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+      border: 2px solid rgba(75, 59, 44, 0.06);
+    }
+
+    /* Title */
+    header h1{
+      margin:0;
+      text-align:center;
+      font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+      color: var(--dark-green);
+      letter-spacing: -0.5px;
+      font-weight:700;
+    }
+    header p.subtitle{
+      text-align:center;
+      margin: 8px 0 18px;
+      color: var(--soft-brown);
+      font-size: 0.95rem;
+    }
+
+    /* Friendly info box */
+    .intro{
+      background: rgba(75,107,79,0.06);
+      border-left: 6px solid var(--dark-green);
+      padding: 12px 14px;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      color: #2c3b2f;
+    }
+
+    /* Steps list */
+    .steps{
+      list-style-position: outside;
+      padding-left: 1.2rem;
+      margin: 0 0 18px 0;
+    }
+    .steps li{
+      margin: 12px 0;
+      padding: 12px;
+      border-radius: 10px;
+      background: linear-gradient(90deg, rgba(107,79,60,0.03), rgba(75,107,79,0.03));
+      border: 1px solid rgba(75,59,44,0.05);
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+    }
+    .step-number{
+      min-width:36px;
+      height:36px;
+      background: var(--brown);
+      color: #fff;
+      font-weight:700;
+      border-radius: 50%;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow: 0 2px 6px rgba(75,59,44,0.12);
+      font-size:0.95rem;
+      flex-shrink:0;
+    }
+    .step-text{
+      font-size:1rem;
+      line-height:1.45;
+    }
+
+    /* Tips & footer */
+    .note{
+      font-size:0.95rem;
+      color: var(--dark-green);
+      margin-top:10px;
+      padding:10px 12px;
+      border-radius:8px;
+      border:1px dashed rgba(75,107,79,0.12);
+      background: rgba(75,107,79,0.03);
+    }
+
+    footer{
+      margin-top:18px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      color: var(--soft-brown);
+      font-size:0.92rem;
+    }
+    .sources{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .sources a{
+      color: var(--dark-green);
+      text-decoration:none;
+      padding:6px 8px;
+      border-radius:6px;
+      border:1px solid rgba(47,74,54,0.06);
+      background: rgba(75,107,79,0.03);
+      font-weight:600;
+      font-size:0.88rem;
+    }
+    .sources a:hover{
+      box-shadow: 0 3px 8px rgba(47,74,54,0.08);
+    }
+
+    /* Responsive smaller screens */
+    @media (max-width:520px){
+      .wrap{margin:18px; padding:18px;}
+      .step-text{font-size:0.98rem;}
+      .step-number{min-width:32px;height:32px;font-size:0.85rem;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main" aria-labelledby="pageTitle">
+    <div class="wrap">Menu:<a href="index.html">Home</a></div>
+    <header>
+      <h1 id="pageTitle">How to Survive a Dinosaur Attack (Kid-Friendly)</h1>
+      <p class="subtitle">A calm, simple guide with grown-up-safe tips — for kids who love dinosaurs but want to stay safe.</p>
+    </header>
+
+    <div class="intro" role="note">
+      <strong>Quick reminder:</strong> Dinosaurs are mostly extinct, but it's fun to imagine. These steps are playful and focus on staying calm, staying together, and getting to a safe grown-up or safe place.
+    </div>
+
+    <ol class="steps" aria-label="Steps to stay safe">
+      <li>
+        <div class="step-number">1</div>
+        <div class="step-text"><strong>Stay calm and breathe.</strong> Take slow breaths and try not to run in a panic — adults can help more if you're calm.</div>
+      </li>
+
+      <li>
+        <div class="step-number">2</div>
+        <div class="step-text"><strong>Find a safe grown-up right away.</strong> Look for a parent, teacher, or park ranger and go to them. Tell them clearly: "I need help."</div>
+      </li>
+
+      <li>
+        <div class="step-number">3</div>
+        <div class="step-text"><strong>Move somewhere sturdy and covered.</strong> If there's a building, vehicle, or a strong shelter nearby, go inside and stay away from windows. If you can't get inside, look for thick trees, big rocks, or places where you can hide safely as a group.</div>
+      </li>
+
+      <li>
+        <div class="step-number">4</div>
+        <div class="step-text"><strong>Stay in a group.</strong> Being together makes it easier for adults to keep everyone safe. Hold hands or stay close until a grown-up says it's okay to separate.</div>
+      </li>
+
+      <li>
+        <div class="step-number">5</div>
+        <div class="step-text"><strong>Be quiet and listen.</strong> If the dinosaur (or loud pretend creature) is near, quiet voices and quick listening help adults figure out a safe plan.</div>
+      </li>
+
+      <li>
+        <div class="step-number">6</div>
+        <div class="step-text"><strong>Follow directions from grown-ups or emergency helpers.</strong> If an adult or official tells you to move, hide, or go to a meeting spot, do it right away — they know the best plan.</div>
+      </li>
+
+      <li>
+        <div class="step-number">7</div>
+        <div class="step-text"><strong>Don't try to touch or feed any dinosaur.</strong> Even friendly-seeming animals should be left alone — always let adults handle wildlife or pretend animals.</div>
+      </li>
+
+      <li>
+        <div class="step-number">8</div>
+        <div class="step-text"><strong>When it's safe, tell someone how you feel.</strong> It's okay to be scared. Talk to an adult about what happened and how you're feeling so they can help you calm down.</div>
+      </li>
+    </ol>
+
+    <div class="note" role="note">
+      Fun idea: If you're writing a story or playing pretend, use these steps to make your adventure safer — and remember real emergencies should always involve a grown-up.
+    </div>
+
+    <footer>
+      <div class="sources" aria-label="Relevant Wikipedia links">
+        <a href="https://en.wikipedia.org/wiki/Dinosaur" target="_blank" rel="noopener noreferrer">Dinosaur</a>
+        <a href="https://en.wikipedia.org/wiki/Prehistoric_life" target="_blank" rel="noopener noreferrer">Prehistoric life</a>
+        <a href="https://en.wikipedia.org/wiki/Extinction_of_the_non-avian_dinosaurs" target="_blank" rel="noopener noreferrer">Dinosaur extinction</a>
+        <a href="https://en.wikipedia.org/wiki/Paleontology" target="_blank" rel="noopener noreferrer">Paleontology</a>
+      </div>
+
+      <div style="font-size:0.85rem; color:var(--brown);">
+        Created with care — stay curious, stay safe.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
